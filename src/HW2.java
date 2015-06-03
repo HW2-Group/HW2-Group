@@ -10,7 +10,7 @@ public class HW2
     	{
 	        String student1 = "Student1: ";
 	        String student1Response[] = {"I like pie.", "Hello, my name is", "Java's got nothing on me", "OOP is not always the solution", "Blastoff! (straight from the book, here)", "Floating point errors are completely avoidable."};
-	        System.out.print(me);
+	        System.out.print(student1);
 	
 	        Random r = new Random();
 	        System.out.println(student1 + student1Response[r.nextInt(6)]);
