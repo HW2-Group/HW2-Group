@@ -22,7 +22,61 @@ public class HW2
     }
 }
 
-public class student
+public class Student
 {
+	private String firstName;
+	private String lastName;
+	private double score;
+	private SortedSet<Comment> comments = new TreeSet<>();//I'm not sure if a tree set is the right call... i want to creat a comments class so that we can make sure comments are ordered correctly
 	
+	public Student(String firstName, String lastName)
+	{
+		setFirstName(firstName);
+		setLastName(lastName);
+		setScore(0);
+		setComments();
+	}
+	
+	public void setFirstName(String firstName)
+	{
+		this.firstName = firstName;
+	}
+		
+	public void setLastName(String lastName)
+	{
+		this.lastName = lastName;
+	}
+	
+	public void setScore(double score)
+	{
+		this.score = score;
+	}
+	
+	public void setComments()
+	{
+		//
+	}
+}
+
+public class Group
+}
+	private SortedSet<Student> students = new TreeSet<>();
+	
+	public Group()
+	{
+		//I'm not sure how to set this up to take however many students can be in a group
+	}
+}
+
+public class Comments
+{
+	private String comment[];
+	private int order;
+	
+	public Comments()
+	{
+		
+	}
+		
+}
 }
